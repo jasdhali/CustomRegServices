@@ -1,0 +1,206 @@
+26-01-2024 13:02:24.853 [35m[restartedMain][0;39m
+				[34mINFO [0;39m c.n.c.CustCommerceRegistrationApplication - 51 - Starting CustCommerceRegistrationApplication using Java 17.0.8.1 with PID 2391249 (/home/jaspal/practice/microservices/regulatory-management/CustCommerceUserOnboarding/target/classes started by jaspal in /home/jaspal/practice/microservices/regulatory-management/CustCommerceUserOnboarding)
+26-01-2024 13:02:24.857 [35m[restartedMain][0;39m
+				[34mINFO [0;39m c.n.c.CustCommerceRegistrationApplication - 644 - The following 1 profile is active: "nondocker"
+26-01-2024 13:02:24.902 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - 250 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+26-01-2024 13:02:24.902 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - 250 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+26-01-2024 13:02:25.417 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - 138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+26-01-2024 13:02:25.573 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - 208 - Finished Spring Data repository scanning in 148 ms. Found 2 JPA repository interfaces.
+26-01-2024 13:02:26.228 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - 108 - Tomcat initialized with port(s): 9081 (http)
+26-01-2024 13:02:26.238 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - 173 - Initializing ProtocolHandler ["http-nio-9081"]
+26-01-2024 13:02:26.240 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.a.catalina.core.StandardService - 173 - Starting service [Tomcat]
+26-01-2024 13:02:26.240 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.a.catalina.core.StandardEngine - 173 - Starting Servlet engine: [Apache Tomcat/10.1.15]
+26-01-2024 13:02:26.300 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - 173 - Initializing Spring embedded WebApplicationContext
+26-01-2024 13:02:26.301 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - 291 - Root WebApplicationContext: initialization completed in 1398 ms
+26-01-2024 13:02:26.461 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.h.jpa.internal.util.LogHelper - 31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+26-01-2024 13:02:26.522 [35m[restartedMain][0;39m
+				[34mINFO [0;39m org.hibernate.Version - 44 - HHH000412: Hibernate ORM core version 6.2.13.Final
+26-01-2024 13:02:26.525 [35m[restartedMain][0;39m
+				[34mINFO [0;39m org.hibernate.cfg.Environment - 191 - HHH000406: Using bytecode reflection optimizer
+26-01-2024 13:02:26.805 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.s.o.j.p.SpringPersistenceUnitInfo - 87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+26-01-2024 13:02:26.834 [35m[restartedMain][0;39m
+				[34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - 110 - HikariPool-1 - Starting...
+26-01-2024 13:02:27.143 [35m[restartedMain][0;39m
+				[34mINFO [0;39m com.zaxxer.hikari.pool.HikariPool - 565 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1359e45c
+26-01-2024 13:02:27.145 [35m[restartedMain][0;39m
+				[34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - 123 - HikariPool-1 - Start completed.
+26-01-2024 13:02:28.031 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - 55 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+26-01-2024 13:02:28.073 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - 437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+26-01-2024 13:02:28.452 [35m[restartedMain][0;39m
+				[31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - 231 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+26-01-2024 13:02:28.740 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.s.b.d.a.OptionalLiveReloadServer - 59 - LiveReload server is running on port 35729
+26-01-2024 13:02:28.759 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - 173 - Starting ProtocolHandler ["http-nio-9081"]
+26-01-2024 13:02:28.775 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - 220 - Tomcat started on port(s): 9081 (http) with context path ''
+26-01-2024 13:02:28.789 [35m[restartedMain][0;39m
+				[34mINFO [0;39m c.n.c.CustCommerceRegistrationApplication - 57 - Started CustCommerceRegistrationApplication in 4.332 seconds (process running for 5.477)
+26-01-2024 13:02:42.284 [35m[http-nio-9081-exec-1][0;39m
+				[34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - 173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+26-01-2024 13:02:42.284 [35m[http-nio-9081-exec-1][0;39m
+				[34mINFO [0;39m o.s.web.servlet.DispatcherServlet - 532 - Initializing Servlet 'dispatcherServlet'
+26-01-2024 13:02:42.285 [35m[http-nio-9081-exec-1][0;39m
+				[34mINFO [0;39m o.s.web.servlet.DispatcherServlet - 554 - Completed initialization in 1 ms
+26-01-2024 13:03:48.385 [35m[File Watcher][0;39m
+				[34mINFO [0;39m o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - 211 - Restarting due to 30 class path changes (0 additions, 7 deletions, 23 modifications)
+26-01-2024 13:03:48.389 [35m[Thread-6][0;39m
+				[34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - 173 - Pausing ProtocolHandler ["http-nio-9081"]
+26-01-2024 13:03:48.390 [35m[Thread-6][0;39m
+				[34mINFO [0;39m o.a.catalina.core.StandardService - 173 - Stopping service [Tomcat]
+26-01-2024 13:03:48.391 [35m[Thread-6][0;39m
+				[34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - 173 - Destroying Spring FrameworkServlet 'dispatcherServlet'
+26-01-2024 13:03:48.393 [35m[Thread-6][0;39m
+				[34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - 173 - Stopping ProtocolHandler ["http-nio-9081"]
+26-01-2024 13:03:48.396 [35m[Thread-6][0;39m
+				[34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - 173 - Destroying ProtocolHandler ["http-nio-9081"]
+26-01-2024 13:03:48.399 [35m[Thread-6][0;39m
+				[34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - 650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+26-01-2024 13:03:48.402 [35m[Thread-6][0;39m
+				[34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - 350 - HikariPool-1 - Shutdown initiated...
+26-01-2024 13:03:48.410 [35m[Thread-6][0;39m
+				[34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - 352 - HikariPool-1 - Shutdown completed.
+26-01-2024 13:09:01.363 [35m[restartedMain][0;39m
+				[34mINFO [0;39m c.n.c.CustCommerceRegistrationApplication - 51 - Starting CustCommerceRegistrationApplication using Java 17.0.8.1 with PID 2392357 (/home/jaspal/practice/microservices/regulatory-management/CustCommerceUserOnboarding/target/classes started by jaspal in /home/jaspal/practice/microservices/regulatory-management/CustCommerceUserOnboarding)
+26-01-2024 13:09:01.368 [35m[restartedMain][0;39m
+				[34mINFO [0;39m c.n.c.CustCommerceRegistrationApplication - 644 - The following 1 profile is active: "nondocker"
+26-01-2024 13:09:01.472 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - 250 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+26-01-2024 13:09:01.472 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - 250 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+26-01-2024 13:09:02.245 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - 138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+26-01-2024 13:09:02.398 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - 208 - Finished Spring Data repository scanning in 145 ms. Found 2 JPA repository interfaces.
+26-01-2024 13:09:03.055 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - 108 - Tomcat initialized with port(s): 9081 (http)
+26-01-2024 13:09:03.063 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - 173 - Initializing ProtocolHandler ["http-nio-9081"]
+26-01-2024 13:09:03.064 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.a.catalina.core.StandardService - 173 - Starting service [Tomcat]
+26-01-2024 13:09:03.065 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.a.catalina.core.StandardEngine - 173 - Starting Servlet engine: [Apache Tomcat/10.1.15]
+26-01-2024 13:09:03.134 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - 173 - Initializing Spring embedded WebApplicationContext
+26-01-2024 13:09:03.135 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - 291 - Root WebApplicationContext: initialization completed in 1662 ms
+26-01-2024 13:09:03.285 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.h.jpa.internal.util.LogHelper - 31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+26-01-2024 13:09:03.336 [35m[restartedMain][0;39m
+				[34mINFO [0;39m org.hibernate.Version - 44 - HHH000412: Hibernate ORM core version 6.2.13.Final
+26-01-2024 13:09:03.338 [35m[restartedMain][0;39m
+				[34mINFO [0;39m org.hibernate.cfg.Environment - 191 - HHH000406: Using bytecode reflection optimizer
+26-01-2024 13:09:03.589 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.s.o.j.p.SpringPersistenceUnitInfo - 87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+26-01-2024 13:09:03.616 [35m[restartedMain][0;39m
+				[34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - 110 - HikariPool-1 - Starting...
+26-01-2024 13:09:03.927 [35m[restartedMain][0;39m
+				[34mINFO [0;39m com.zaxxer.hikari.pool.HikariPool - 565 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@9a0787b
+26-01-2024 13:09:03.930 [35m[restartedMain][0;39m
+				[34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - 123 - HikariPool-1 - Start completed.
+26-01-2024 13:09:04.831 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - 55 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+26-01-2024 13:09:04.874 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - 437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+26-01-2024 13:09:05.356 [35m[restartedMain][0;39m
+				[31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - 231 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+26-01-2024 13:09:06.259 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.s.b.d.a.OptionalLiveReloadServer - 59 - LiveReload server is running on port 35729
+26-01-2024 13:09:06.284 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - 173 - Starting ProtocolHandler ["http-nio-9081"]
+26-01-2024 13:09:06.305 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - 220 - Tomcat started on port(s): 9081 (http) with context path ''
+26-01-2024 13:09:06.324 [35m[restartedMain][0;39m
+				[34mINFO [0;39m c.n.c.CustCommerceRegistrationApplication - 57 - Started CustCommerceRegistrationApplication in 5.451 seconds (process running for 6.709)
+26-01-2024 13:16:50.121 [35m[File Watcher][0;39m
+				[34mINFO [0;39m o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - 211 - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+26-01-2024 13:16:50.135 [35m[Thread-6][0;39m
+				[34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - 173 - Pausing ProtocolHandler ["http-nio-9081"]
+26-01-2024 13:16:50.135 [35m[Thread-6][0;39m
+				[34mINFO [0;39m o.a.catalina.core.StandardService - 173 - Stopping service [Tomcat]
+26-01-2024 13:16:50.142 [35m[Thread-6][0;39m
+				[34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - 173 - Stopping ProtocolHandler ["http-nio-9081"]
+26-01-2024 13:16:50.147 [35m[Thread-6][0;39m
+				[34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - 173 - Destroying ProtocolHandler ["http-nio-9081"]
+26-01-2024 13:16:50.150 [35m[Thread-6][0;39m
+				[34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - 650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+26-01-2024 13:16:50.155 [35m[Thread-6][0;39m
+				[34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - 350 - HikariPool-1 - Shutdown initiated...
+26-01-2024 13:16:50.162 [35m[Thread-6][0;39m
+				[34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - 352 - HikariPool-1 - Shutdown completed.
+26-01-2024 13:16:50.292 [35m[restartedMain][0;39m
+				[34mINFO [0;39m c.n.c.CustCommerceRegistrationApplication - 51 - Starting CustCommerceRegistrationApplication using Java 17.0.8.1 with PID 2392357 (/home/jaspal/practice/microservices/regulatory-management/CustCommerceUserOnboarding/target/classes started by jaspal in /home/jaspal/practice/microservices/regulatory-management/CustCommerceUserOnboarding)
+26-01-2024 13:16:50.292 [35m[restartedMain][0;39m
+				[34mINFO [0;39m c.n.c.CustCommerceRegistrationApplication - 644 - The following 1 profile is active: "nondocker"
+26-01-2024 13:16:50.539 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - 138 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+26-01-2024 13:16:50.550 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.s.d.r.c.RepositoryConfigurationDelegate - 208 - Finished Spring Data repository scanning in 10 ms. Found 2 JPA repository interfaces.
+26-01-2024 13:16:50.671 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - 108 - Tomcat initialized with port(s): 9081 (http)
+26-01-2024 13:16:50.672 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - 173 - Initializing ProtocolHandler ["http-nio-9081"]
+26-01-2024 13:16:50.672 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.a.catalina.core.StandardService - 173 - Starting service [Tomcat]
+26-01-2024 13:16:50.672 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.a.catalina.core.StandardEngine - 173 - Starting Servlet engine: [Apache Tomcat/10.1.15]
+26-01-2024 13:16:50.687 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.a.c.c.C.[Tomcat].[localhost].[/] - 173 - Initializing Spring embedded WebApplicationContext
+26-01-2024 13:16:50.687 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.s.b.w.s.c.ServletWebServerApplicationContext - 291 - Root WebApplicationContext: initialization completed in 391 ms
+26-01-2024 13:16:50.734 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.h.jpa.internal.util.LogHelper - 31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+26-01-2024 13:16:50.740 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.s.o.j.p.SpringPersistenceUnitInfo - 87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+26-01-2024 13:16:50.741 [35m[restartedMain][0;39m
+				[34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - 110 - HikariPool-2 - Starting...
+26-01-2024 13:16:50.753 [35m[restartedMain][0;39m
+				[34mINFO [0;39m com.zaxxer.hikari.pool.HikariPool - 565 - HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3c2ab968
+26-01-2024 13:16:50.754 [35m[restartedMain][0;39m
+				[34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - 123 - HikariPool-2 - Start completed.
+26-01-2024 13:16:50.799 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.h.e.t.j.p.i.JtaPlatformInitiator - 55 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+26-01-2024 13:16:50.806 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - 437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+26-01-2024 13:16:50.959 [35m[restartedMain][0;39m
+				[31mWARN [0;39m o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - 231 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+26-01-2024 13:16:51.320 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.s.b.d.a.OptionalLiveReloadServer - 59 - LiveReload server is running on port 35729
+26-01-2024 13:16:51.330 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - 173 - Starting ProtocolHandler ["http-nio-9081"]
+26-01-2024 13:16:51.334 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.s.b.w.e.tomcat.TomcatWebServer - 220 - Tomcat started on port(s): 9081 (http) with context path ''
+26-01-2024 13:16:51.342 [35m[restartedMain][0;39m
+				[34mINFO [0;39m c.n.c.CustCommerceRegistrationApplication - 57 - Started CustCommerceRegistrationApplication in 1.108 seconds (process running for 471.727)
+26-01-2024 13:16:51.347 [35m[restartedMain][0;39m
+				[34mINFO [0;39m o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - 63 - Condition evaluation unchanged
+26-01-2024 15:07:16.207 [35m[RMI TCP Connection(122)-127.0.0.1][0;39m
+				[34mINFO [0;39m o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - 159 - Application shutdown requested.
+26-01-2024 15:07:16.209 [35m[RMI TCP Connection(122)-127.0.0.1][0;39m
+				[34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - 173 - Pausing ProtocolHandler ["http-nio-9081"]
+26-01-2024 15:07:16.209 [35m[RMI TCP Connection(122)-127.0.0.1][0;39m
+				[34mINFO [0;39m o.a.catalina.core.StandardService - 173 - Stopping service [Tomcat]
+26-01-2024 15:07:16.211 [35m[RMI TCP Connection(122)-127.0.0.1][0;39m
+				[34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - 173 - Stopping ProtocolHandler ["http-nio-9081"]
+26-01-2024 15:07:16.213 [35m[RMI TCP Connection(122)-127.0.0.1][0;39m
+				[34mINFO [0;39m o.a.coyote.http11.Http11NioProtocol - 173 - Destroying ProtocolHandler ["http-nio-9081"]
+26-01-2024 15:07:16.216 [35m[RMI TCP Connection(122)-127.0.0.1][0;39m
+				[34mINFO [0;39m o.s.o.j.LocalContainerEntityManagerFactoryBean - 650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+26-01-2024 15:07:16.218 [35m[RMI TCP Connection(122)-127.0.0.1][0;39m
+				[34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - 350 - HikariPool-2 - Shutdown initiated...
+26-01-2024 15:07:16.223 [35m[RMI TCP Connection(122)-127.0.0.1][0;39m
+				[34mINFO [0;39m com.zaxxer.hikari.HikariDataSource - 352 - HikariPool-2 - Shutdown completed.
