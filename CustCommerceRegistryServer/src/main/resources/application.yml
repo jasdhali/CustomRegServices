@@ -1,0 +1,9 @@
+server:
+  port: 9761
+spring:
+  application:
+    name: custom-commerce-registry-service
+eureka:
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
